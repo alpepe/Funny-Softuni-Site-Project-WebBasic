@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.first-screen{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    background: #234465;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
+
+.first-screen-image{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+.first-screen ul{
+    display: inline-block;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    width: 90%;
+}
+.first-screen ul li{
+    display: inline-block;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    margin-right: 30px;
+}
+.first-screen ul li:last-child{
+    margin-right: 0;
+
+}
+
+.first-screen li a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Comfortaa;
+    text-decoration: none;
+    color: #8e9fb0;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+}
+.first-screen li:hover{
+    cursor: pointer;
+}
+.first-screen li:hover a{
+    color: #ffa000;
+}
+
+.male{
+    background: url("../images/male.png") center no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 10px auto;
+}
+.first-screen li:hover .male{
+    background: url("../images/maleHover.png") center no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+}
+.female{
+    background: url("../images/female.png") center no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 10px auto;
+}
+.first-screen li:hover .female{
+    background: url("../images/femaleHover.png") center no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+}
+.programmer{
+    background: url("../images/programmer.png") center no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 10px auto;
+}
+.first-screen li:hover .programmer{
+    background: url("../images/programmerHover.png") center no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 70%;
+}
+
+
+.first-screen li h1{
+    font-family: Comfortaa;
+    text-decoration: none;
+    color: #8e9fb0;
+    text-transform: capitalize;
+    font-size: 1em;
+}
