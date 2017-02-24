@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/firts-screen-style.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <!-- View Controller JavaScript -->
+    <script src="js/ViewController.js"></script>
+</head>
+
+<body onload="startApp()">
+<div id="firstScreen" class="first-screen">
+    <div class="first-screen-image"></div>
+    <ul>
+        <li>
+            <a id="female" href="#">
+                <div class="female"></div>
+                famale
+            </a>
+        </li>
+        <li>
+            <a id="male" href="#">
+                <div class="male"></div>
+                male
+            </a>
+        </li>
+        <li>
+            <a id="programmer" href="#">
+            <div class="programmer"></div>
+            programmer
+        </a>
+        </li>
+    </ul>
+</div>
+
+<nav id="navbar" class="navbar">
+    <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li>
+            <a class="page-scroll" href="#home">Начало</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#middle">Среда</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#end">Край</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#contact">контакти</a>
+        </li>
+    </ul>
+</nav>
+
+<section id="home" class="home-section">
+    <h1>начало</h1>
+</section>
+
+<section id="middle" class="middle-section">
+    <h1>Среда</h1>
+</section>
+
+<section id="end" class="end-section">
+    <h1>край</h1>
+</section>
+
+<section id="contact" class="contact-section">
+    <h1>контакти</h1>
+</section>
+
+</body>
+
+</html>
