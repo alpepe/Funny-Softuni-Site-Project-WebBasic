@@ -14,6 +14,7 @@
     text-align: center;
 }
 
+
 .first-screen-image{
     display: block;
     width: 100%;
@@ -95,6 +96,9 @@
     background-size: contain;
     width: 70%;
     height: 70%;
+}
+.first-screen li:hover .first-screen-image{
+    border: solid 10px red;
 }
 
 
