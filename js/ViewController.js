@@ -1,6 +1,7 @@
 function startApp() {
     "use strict";
-    hideMain();
+    //hideMain();
+    showMenu();
 
     $("#programmer").click(showMenu);
     $('#programmer').hover(showFirstScreenImageProgrammer, hideFirstScreenImageProgrammer)
@@ -8,7 +9,7 @@ function startApp() {
     $('#female').hover(showFirstScreenImageFemale, hideFirstScreenImageFemale)
 
 
-    
+
     function showFirstScreenImageProgrammer() {
         $('#firstScreenImage').css({'background': ' url("images/FB76BAD4-B93F-11E5-8654-CE024887B159.jpg" ) center no-repeat'});
         $('#firstScreenImage').css({'background-size': 'contain'});

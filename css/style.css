@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"');
 
 body {
     font-family: "pt sans caption", sans-serif;
     font-size: 15px;
     width: 100%;
     height: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 html {
@@ -15,44 +17,180 @@ html {
     height: 100%;
 }
 
-
-.navbar{
+.navbar {
     width: 100%;
+    max-width: 1600px;
     background: #234465;
     padding: 10px;
     text-align: right;
     position: fixed;
+    z-index: 100;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
     margin-right: 35px;
 }
-.navbar li a{
+
+.navbar li a {
     color: #8e9fb0;
     text-decoration: none;
     font-size: 1.5em;
     text-transform: capitalize;
-    font-weight:900 ;
+    font-weight: 900;
+    -moz-transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
 }
 
-.navbar li a:hover{
-    color: #ffa000  ;
+.navbar li a:hover {
+    color: #ffa000;
+    -moz-transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
+/** === Home section style ===*/
 .home-section {
-    height: 100%;
-    padding-top: 150px;
     text-align: center;
     background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 65px;
+}
+
+.home-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin-left: 120px;
+    text-align: center;
+}
+
+.home-main-header {
+    flex-basis: 100%;
+    color: #ffa000;
+    padding: 5px;
+    font-size: 1.5em;
+    font-family: Comfortaa, sans-serif;
+    text-align: left;
+}
+
+.image-container {
+    margin-top: 50px;
+    display: block;
+    padding-bottom: 60px;
+    border-bottom: 3px solid #8e9fb0;
+    width: 500px;
+
+}
+
+.image-header {
+    background-color: #234465;
+    padding: 15px;
+    width: calc(100% - 30px);
+    color: white;
+    font-size: 2em;
+    position: relative;
+    height: 35px;
+}
+
+.image-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.image-header a span {
+    position: absolute;
+    left: 180px;
+    color: rgba(255, 255, 255, 0);
+    -moz-transition: color .5s ease-in-out;
+    -webkit-transition: color .5s ease-in-out;
+
+}
+
+.fa-thumbs-up {
+    position: absolute;
+    left: 20px;
+    -moz-transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+}
+
+.fa-thumbs-up:hover {
+    color: #ffa000;
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+}
+
+.up:hover span {
+    color: rgba(255, 255, 255, 0.4);
+    -webkit-transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+}
+
+.fa-thumbs-down {
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    border-right: 3px solid #8e9fb0;
+    padding-right: 20px;
+    -moz-transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+}
+.down:hover span {
+    color: rgba(255, 255, 255, 0.4);
+    -webkit-transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+}
+
+.fa-thumbs-down:hover {
+    color: #ffa000;
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+}
+
+.fa-twitter {
+    position: absolute;
+    right: 10px;
+    -moz-transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+}
+
+.fa-twitter:hover {
+    color: #ffa000;
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+}
+.twitter:hover span {
+    color: rgba(255, 255, 255, 0.4);
+    -webkit-transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+}
+
+.fa-facebook {
+    position: absolute;
+    right: 60px;
+    border-left: 3px solid #8e9fb0;
+    padding-left: 20px;
+    -moz-transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+}
+
+.fa-facebook:hover {
+    color: #ffa000;
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+}
+.facebook:hover span {
+    color: rgba(255, 255, 255, 0.4);
+    -webkit-transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+}
+.home-aside {
+    flex-basis: 30%;
+    flex-grow: 1;
+    border: solid red 2px;
+
 }
 
 .middle-section {
