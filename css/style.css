@@ -51,7 +51,7 @@ html {
 /** ========= HOME SECTION style =========*/
 .home-section {
     text-align: center;
-    background: #f1f1f1;
+    background: url("../images/IMG_405685.jpg")no-repeat fixed;
     display: flex;
     flex-wrap: wrap;
     padding-top: 65px;
@@ -90,24 +90,38 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-shadow: 2px 2px 4px 0 #ccc;
+    position: relative;
 }
 
 .image-container img {
     width: 100%
 }
+.image-container:hover .image-header{
+    background-color: rgba(35, 68, 101, 0.8);
+
+}
+.image-container:hover .image-header a{
+    color: rgba(255, 255, 255, 1);
+}
+.image-container:hover img{
+    width: 102%;
+    -moz-transition: width .3s ease-in-out;
+    -webkit-transition: width .3s ease-in-out;
+}
 
 .image-header {
-    background-color: #234465;
+    background-color: rgba(35, 68, 101, 0);
     padding: 15px;
     width: calc(100% - 30px);
-    color: white;
     font-size: 1.5em;
-    position: relative;
+    position: absolute;
     height: 10px;
+
+
 }
 
 .image-header a {
-    color: white;
+    color: rgba(255, 255, 255, 0);
     text-decoration: none;
 }
 
@@ -146,7 +160,6 @@ html {
     position: absolute;
     left: 50px;
     top: 8px;
-    border-right: 3px solid #8e9fb0;
     padding-right: 15px;
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
@@ -188,7 +201,6 @@ html {
     position: absolute;
     right: 50px;
     top: 8px;
-    border-left: 3px solid #8e9fb0;
     padding-left: 15px;
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
@@ -223,13 +235,27 @@ html {
 
 .advertisement-softuni img {
     display: block;
-    margin: 30px auto 10px auto;
+    margin: 30px auto 0 auto;
     width: 100%;
 }
 
-.advertisement-softuni a {
+.advertisement-softuni .button {
+    width: 100%;
+    display: block;
     text-decoration: none;
+    color: white;
+    line-height: 2.5em;
     background: #234465;
+    -moz-transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
+
+}
+
+.advertisement-softuni .button:hover {
+    background: #3c5870;
+    -moz-transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
+
 }
 
 /** ========= MIDDLE SECTION style =========*/
