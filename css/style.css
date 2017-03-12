@@ -47,9 +47,18 @@ html {
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
 }
-
 /** ========= HOME SECTION style =========*/
 .home-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    padding-top: 65px;
+    background: url("../images/IMG_405685.jpg")no-repeat fixed;
+}
+
+/** ========= IMAGES SECTION style =========*/
+.images-section {
     text-align: center;
     background: url("../images/IMG_405685.jpg")no-repeat fixed;
     display: flex;
@@ -57,7 +66,7 @@ html {
     padding-top: 65px;
 }
 
-.home-section h1 {
+.images-section h1 {
     flex-basis: 100%;
     color: #ffa000;
     padding: 0.1em;
@@ -67,8 +76,8 @@ html {
     margin: 0.7em 0 0 2em;
 }
 
-/** === Home main style ===*/
-.home-main {
+/** === Images main style ===*/
+.images-main {
     flex-basis: 70%;
     margin: 2em 2.9em 5em 2em;
     padding: 0;
@@ -91,10 +100,11 @@ html {
     -webkit-box-sizing: border-box;
     box-shadow: 2px 2px 4px 0 #ccc;
     position: relative;
+    text-align: center;
 }
 
 .image-container img {
-    width: 100%
+    width: 100%;
 }
 .image-container:hover .image-header{
     background-color: rgba(35, 68, 101, 0.8);
@@ -104,7 +114,9 @@ html {
     color: rgba(255, 255, 255, 1);
 }
 .image-container:hover img{
-    width: 102%;
+    margin: 0 auto;
+    width: 105%;
+    cursor: pointer;
     -moz-transition: width .3s ease-in-out;
     -webkit-transition: width .3s ease-in-out;
 }
@@ -151,7 +163,8 @@ html {
 }
 
 .up:hover span {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
     -webkit-transition: color .5s ease-in;
     -moz-transition: color .5s ease-in;
 }
@@ -166,7 +179,8 @@ html {
 }
 
 .down:hover span {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
     -webkit-transition: color .5s ease-in;
     -moz-transition: color .5s ease-in;
 }
@@ -192,7 +206,8 @@ html {
 }
 
 .twitter:hover span {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
     -webkit-transition: color .5s ease-in;
     -moz-transition: color .5s ease-in;
 }
@@ -213,14 +228,15 @@ html {
 }
 
 .facebook:hover span {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
     -webkit-transition: color .5s ease-in;
     -moz-transition: color .5s ease-in;
 }
 
-/** === Home aside style ===*/
+/** === Images aside style ===*/
 
-.home-aside {
+.images-aside {
     flex-basis: 15%;
     flex-grow: 1;
     text-align: center;
@@ -264,7 +280,8 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #eee;
-    padding: 0;
+    padding: 65px;
+    background: url("../images/IMG_2.jpg")no-repeat fixed;
 }
 
 /** ========= END SECTION style =========*/
@@ -273,6 +290,7 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    background: url("../images/IMG_2.jpg")no-repeat fixed;
 }
 
 /** ========= CONTACT SECTION style =========*/
