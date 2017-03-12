@@ -48,41 +48,52 @@ html {
     -webkit-transition: color .3s ease-in-out;
 }
 
-/** === Home section style ===*/
+/** ========= HOME SECTION style =========*/
 .home-section {
     text-align: center;
-    background: #fff;
+    background: #f1f1f1;
     display: flex;
     flex-wrap: wrap;
     padding-top: 65px;
 }
 
-.home-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-basis: 50%;
-    flex-grow: 1;
-    margin-left: 120px;
-    text-align: center;
-}
-
-.home-main-header {
+.home-section h1 {
     flex-basis: 100%;
     color: #ffa000;
-    padding: 5px;
-    font-size: 1.5em;
+    padding: 0.1em;
+    font-size: 2em;
     font-family: Comfortaa, sans-serif;
     text-align: left;
+    margin: 0.7em 0 0 2em;
+}
+
+/** === Home main style ===*/
+.home-main {
+    flex-basis: 70%;
+    margin: 2em 2.9em 5em 2em;
+    padding: 0;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    padding-right: 3.1em;
+    border-right: 2px solid #234465;
+
 }
 
 .image-container {
-    margin-top: 50px;
-    display: block;
-    padding-bottom: 60px;
-    border-bottom: 3px solid #8e9fb0;
-    width: 500px;
+    display: inline-block;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
 
+.image-container img {
+    width: 100%
 }
 
 .image-header {
@@ -90,9 +101,9 @@ html {
     padding: 15px;
     width: calc(100% - 30px);
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     position: relative;
-    height: 35px;
+    height: 10px;
 }
 
 .image-header a {
@@ -102,16 +113,19 @@ html {
 
 .image-header a span {
     position: absolute;
-    left: 180px;
+    left: 115px;
+    top: 8px;
     color: rgba(255, 255, 255, 0);
     -moz-transition: color .5s ease-in-out;
     -webkit-transition: color .5s ease-in-out;
+    font-size: 0.8em;
 
 }
 
 .fa-thumbs-up {
     position: absolute;
-    left: 20px;
+    left: 10px;
+    top: 8px;
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
 }
@@ -130,13 +144,14 @@ html {
 
 .fa-thumbs-down {
     position: absolute;
-    left: 70px;
-    top: 20px;
+    left: 50px;
+    top: 8px;
     border-right: 3px solid #8e9fb0;
-    padding-right: 20px;
+    padding-right: 15px;
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
 }
+
 .down:hover span {
     color: rgba(255, 255, 255, 0.4);
     -webkit-transition: color .5s ease-in;
@@ -152,6 +167,7 @@ html {
 .fa-twitter {
     position: absolute;
     right: 10px;
+    top: 8px;
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
 }
@@ -161,6 +177,7 @@ html {
     -webkit-transition: color .3s ease-in;
     -moz-transition: color .3s ease-in;
 }
+
 .twitter:hover span {
     color: rgba(255, 255, 255, 0.4);
     -webkit-transition: color .5s ease-in;
@@ -169,9 +186,10 @@ html {
 
 .fa-facebook {
     position: absolute;
-    right: 60px;
+    right: 50px;
+    top: 8px;
     border-left: 3px solid #8e9fb0;
-    padding-left: 20px;
+    padding-left: 15px;
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
 }
@@ -181,25 +199,49 @@ html {
     -webkit-transition: color .3s ease-in;
     -moz-transition: color .3s ease-in;
 }
+
 .facebook:hover span {
     color: rgba(255, 255, 255, 0.4);
     -webkit-transition: color .5s ease-in;
     -moz-transition: color .5s ease-in;
 }
-.home-aside {
-    flex-basis: 30%;
-    flex-grow: 1;
-    border: solid red 2px;
 
+/** === Home aside style ===*/
+
+.home-aside {
+    flex-basis: 15%;
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 10px;
 }
 
+.advertisement-softuni {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.advertisement-softuni img {
+    display: block;
+    margin: 30px auto 10px auto;
+    width: 100%;
+}
+
+.advertisement-softuni a {
+    text-decoration: none;
+    background: #234465;
+}
+
+/** ========= MIDDLE SECTION style =========*/
 .middle-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    padding: 0;
 }
 
+/** ========= END SECTION style =========*/
 .end-section {
     height: 100%;
     padding-top: 150px;
@@ -207,6 +249,7 @@ html {
     background: #fff;
 }
 
+/** ========= CONTACT SECTION style =========*/
 .contact-section {
     height: 100%;
     padding-top: 150px;
