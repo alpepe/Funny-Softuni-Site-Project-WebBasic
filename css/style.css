@@ -47,6 +47,7 @@ html {
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
 }
+
 /** ========= HOME SECTION style =========*/
 .home-section {
     height: 100%;
@@ -54,13 +55,42 @@ html {
     text-align: center;
     background: #eee;
     padding-top: 65px;
-    background: url("../images/IMG_405685.jpg")no-repeat fixed;
+    background: url("../images/IMG_405685.jpg") no-repeat fixed;
+    position: relative;
 }
+
+.home-section .home-section-nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.home-section .window {
+    width: 200px;
+    height: 300px;
+    border-radius: 3em;
+    background:-webkit-linear-gradient(top, rgba(248,80,50,1)20%, rgba(248,80,50,0.8)30%, rgba(241,111,92,0.0) 95%), url(../images/i-need-breace.jpg);
+
+    -moz-transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+}
+.home-section .window:hover {
+    transform: scale(1.10, 1.10);
+    -moz-transform: scale(1.25, 1.25);
+    -ms-transform: scale(1.25, 1.25);
+    -webkit-transform: scale(1.10, 1.10);
+    -o-transform: scale(1.25, 1.25);
+    -moz-transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+    cursor: pointer;
+}
+
+
 
 /** ========= IMAGES SECTION style =========*/
 .images-section {
     text-align: center;
-    background: url("../images/IMG_405685.jpg")no-repeat fixed;
+    background: url("../images/IMG_405685.jpg") no-repeat fixed;
     display: flex;
     flex-wrap: wrap;
     padding-top: 65px;
@@ -106,19 +136,19 @@ html {
 .image-container img {
     width: 100%;
 }
-.image-container:hover .image-header{
+
+.image-container:hover .image-header {
     background-color: rgba(35, 68, 101, 0.8);
 
 }
-.image-container:hover .image-header a{
+
+.image-container:hover .image-header a {
     color: rgba(255, 255, 255, 1);
 }
-.image-container:hover img{
+
+.image-container:hover img {
     margin: 0 auto;
-    width: 105%;
     cursor: pointer;
-    -moz-transition: width .3s ease-in-out;
-    -webkit-transition: width .3s ease-in-out;
 }
 
 .image-header {
@@ -128,7 +158,6 @@ html {
     font-size: 1.5em;
     position: absolute;
     height: 10px;
-
 
 }
 
@@ -281,7 +310,7 @@ html {
     text-align: center;
     background: #eee;
     padding: 65px;
-    background: url("../images/IMG_2.jpg")no-repeat fixed;
+    background: url("../images/IMG_2.jpg") no-repeat fixed;
 }
 
 /** ========= END SECTION style =========*/
@@ -290,7 +319,7 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
-    background: url("../images/IMG_2.jpg")no-repeat fixed;
+    background: url("../images/IMG_2.jpg") no-repeat fixed;
 }
 
 /** ========= CONTACT SECTION style =========*/
