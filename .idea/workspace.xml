@@ -24,14 +24,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+            <state relative-caret-position="383">
+              <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
-                <element signature="n#article#0;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
-                <element signature="n#article#1;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#article#2;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#article#3;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#article#4;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
@@ -43,9 +42,12 @@
                 <element signature="n#article#10;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#article#11;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#article#0;n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#article#1;n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#article#2;n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#section#3;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#section#4;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#footer#0;n#section#4;n#body#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -54,8 +56,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="71" column="149" selection-start-line="71" selection-start-column="149" selection-end-line="71" selection-end-column="149" />
+            <state relative-caret-position="368">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -64,8 +66,8 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,7 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,13 +191,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="softuni-project-webbasic.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="softuni-project-webbasic.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +219,7 @@
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5.Creating Landing Pages/Esercises/P01_ConsultingAgency/agency.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -288,11 +304,12 @@
       <workItem from="1489335780872" duration="4041000" />
       <workItem from="1489339985040" duration="6477000" />
       <workItem from="1489437651544" duration="4941000" />
+      <workItem from="1489514186038" duration="15122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53799000" />
+    <option name="totallyTimeSpent" value="68921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -326,15 +343,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/ViewController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/index.html" />
     <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/css/style.css" />
     <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/css/responsive.css" />
     <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/css/firts-screen-style.css" />
@@ -413,24 +421,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/MasonryJQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../5.Creating Landing Pages/Esercises/P01_ConsultingAgency/agency.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="374">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        <state relative-caret-position="383">
+          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
           <folding>
             <element signature="n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#article#0;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#article#1;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#article#2;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#article#3;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#article#4;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
@@ -442,17 +467,20 @@
             <element signature="n#article#10;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#article#11;n#main#0;n#section#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#article#0;n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#article#1;n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#article#2;n#aside#0;n#section#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#footer#0;n#section#4;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="71" column="149" selection-start-line="71" selection-start-column="149" selection-end-line="71" selection-end-column="149" />
+        <state relative-caret-position="368">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="18" />
           <folding />
         </state>
       </provider>

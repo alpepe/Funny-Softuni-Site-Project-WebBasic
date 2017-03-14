@@ -57,23 +57,27 @@ html {
     padding-top: 65px;
     background: url("../images/IMG_405685.jpg") no-repeat fixed;
     position: relative;
+    display: flex;
 }
 
 .home-section .home-section-nav {
-    width: 70%;
+    flex-basis: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 10em auto;
 }
+
 .home-section .window {
     width: 200px;
     height: 300px;
     border-radius: 3em;
-    background:-webkit-linear-gradient(top, rgba(248,80,50,1)20%, rgba(248,80,50,0.8)30%, rgba(241,111,92,0.0) 95%), url(../images/i-need-breace.jpg);
+    background: -webkit-linear-gradient(top, rgba(248, 80, 50, 1) 20%, rgba(248, 80, 50, 0.8) 30%, rgba(241, 111, 92, 0.0) 95%), url(../images/i-need-breace.jpg);
 
     -moz-transition: transform .5s ease-in-out;
     -webkit-transition: transform .5s ease-in-out;
 }
+
 .home-section .window:hover {
     transform: scale(1.10, 1.10);
     -moz-transform: scale(1.25, 1.25);
@@ -84,8 +88,6 @@ html {
     -webkit-transition: transform .5s ease-in-out;
     cursor: pointer;
 }
-
-
 
 /** ========= IMAGES SECTION style =========*/
 .images-section {
@@ -220,7 +222,7 @@ html {
     -moz-transition: color .3s ease-in;
 }
 
-.fa-twitter {
+.image-container .fa-twitter {
     position: absolute;
     right: 10px;
     top: 8px;
@@ -228,20 +230,20 @@ html {
     -webkit-transition: color .3s ease-in-out;
 }
 
-.fa-twitter:hover {
+.image-container .fa-twitter:hover {
     color: #ffa000;
     -webkit-transition: color .3s ease-in;
     -moz-transition: color .3s ease-in;
 }
 
-.twitter:hover span {
+.image-container .twitter:hover span {
     color: rgba(255, 255, 255, 1);
     font-weight: 900;
     -webkit-transition: color .5s ease-in;
     -moz-transition: color .5s ease-in;
 }
 
-.fa-facebook {
+.image-container .fa-facebook {
     position: absolute;
     right: 50px;
     top: 8px;
@@ -250,13 +252,13 @@ html {
     -webkit-transition: color .3s ease-in-out;
 }
 
-.fa-facebook:hover {
+.image-container .fa-facebook:hover {
     color: #ffa000;
     -webkit-transition: color .3s ease-in;
     -moz-transition: color .3s ease-in;
 }
 
-.facebook:hover span {
+.image-container .facebook:hover span {
     color: rgba(255, 255, 255, 1);
     font-weight: 900;
     -webkit-transition: color .5s ease-in;
@@ -272,7 +274,8 @@ html {
     margin-right: 10px;
 }
 
-.advertisement-softuni {
+.advertisement {
+    margin-top: 1em;
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -282,6 +285,10 @@ html {
     display: block;
     margin: 30px auto 0 auto;
     width: 100%;
+}
+
+.advertisement-softuni img:hover {
+    opacity: 0.9;
 }
 
 .advertisement-softuni .button {
@@ -303,6 +310,30 @@ html {
 
 }
 
+.advertisement-images a {
+    text-decoration: none;
+}
+
+.advertisement-images p {
+    margin-top: 1em;
+    color: white;
+    font-size: 3em;
+    font-family: Comfortaa, sans-serif;
+    padding: 3em 0;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #234465;
+}
+
+.advertisement-images p:hover {
+    background: #3c5870;
+    -moz-transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: font-weight .3s ease-in-out;
+    -webkit-transition: font-weight .3s ease-in-out;
+}
+
 /** ========= MIDDLE SECTION style =========*/
 .middle-section {
     height: 100%;
@@ -311,10 +342,12 @@ html {
     background: #eee;
     padding: 65px;
     background: url("../images/IMG_2.jpg") no-repeat fixed;
+    text-align: left;
 }
 
-/** ========= END SECTION style =========*/
-.end-section {
+
+/** ========= CONTACT SECTION style =========*/
+.contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -322,10 +355,142 @@ html {
     background: url("../images/IMG_2.jpg") no-repeat fixed;
 }
 
-/** ========= CONTACT SECTION style =========*/
-.contact-section {
-    height: 100%;
+/** ========= END SECTION style =========*/
+.end-section {
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    display: flex;
+    margin-bottom: 0;
+}
+
+footer {
+    flex-basis: 100%;
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.fa-chevron-up {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    font-size: 2em;
+    color: white;
+    padding: 0.5em;
+    border: 1px solid white;
+    -moz-transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: border-color .3s ease-in-out;
+    -webkit-transition: border-color .3s ease-in-out;
+}
+
+.fa-chevron-up:hover {
+    background: rgba(255, 160, 0, 0.7);
+    border-color:rgba(255, 160, 0, 0.0);
+    -moz-transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: border-color .3s ease-in-out;
+    -webkit-transition: border-color .3s ease-in-out;
+}
+
+/** ========= 1st part of footer style =========*/
+.footer-up {
+    flex-basis: 100%;
+    background: #3c5870;
+    padding: 2em 0;
+}
+
+.footer-up .social-links {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.footer-up .social-links li {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0 1.7em;
+    background: #ffa000;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    position: relative;
+}
+
+.footer-up .social-links li .fa-twitter {
+    position: absolute;
+    top: 8px;
+    left: 9.8px;
+}
+.footer-up .social-links li .fa-github {
+    position: absolute;
+    top: 8px;
+    left: 9.4px;
+}
+
+.footer-up .social-links li .fa-facebook {
+    position: absolute;
+    top: 8px;
+    left: 13px;
+}
+
+.footer-up .social-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+
+}
+.footer-up .social-links li a:hover{
+    color: #3c5870;
+}
+.footer-navigation li {
+    display: inline-block;
+    margin: 1em;
+    font-size: 1.2em;
+    padding-right: 3em;
+    border-right: 2px solid #ffa000;
+
+}
+
+.footer-navigation li a {
+    text-decoration: none;
+    color: white;
+    font-family: Comfortaa, sans-serif;
+}
+
+.footer-navigation li a:hover {
+    font-weight: 900;
+}
+
+.footer-up p {
+    margin: 1em auto;
+    width: 50%;
+    font-family: Comfortaa, sans-serif;
+    line-height: 1.5em;
+    font-size: 1em;
+    padding: 0.2em;
+    color: white;
+}
+
+/** ========= 2nd part of footer style =========*/
+.footer-down {
+    flex-basis: 100%;
+    background: #234465;
+    color: white;
+    padding: 0.7em 0;
+}
+
+.footer-down p {
+    margin: 0 auto;
+    width: 50%;
+    font-family: Comfortaa, sans-serif;
+    line-height: 1.5em;
+    font-size: 1em;
+    padding: 0.2em;
+}
+
+.footer-down .created-by {
+    font-size: 1.3em;
 }

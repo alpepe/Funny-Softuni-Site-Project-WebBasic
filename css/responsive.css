@@ -12,18 +12,27 @@
 
     }
 
+    .fa-chevron-up{
+        display: none;
+    }
+
     .images-section h1 {
         padding: 5px;
         font-size: 2em;
         margin: 0.4em 0 0 2em;
     }
 }
+
 @media only screen and (max-width: 769px) {
     .images-main {
         flex-basis: 100%;
-        border-right:none ;
+        border-right: none;
     }
+
+
+
 }
+
 @media only screen and (max-width: 640px) {
     .images-main {
         -moz-column-count: 1;

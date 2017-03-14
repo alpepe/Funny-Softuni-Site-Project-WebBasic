@@ -19,7 +19,6 @@
     <!-- View Controller JavaScript -->
     <script src="js/ViewController.js"></script>
 
-    <script src="js/MasonryJQuery.js"></script>
 </head>
 
 <body onload="startApp()">
@@ -60,10 +59,10 @@
             <a class="page-scroll" href="#middle">Среда</a>
         </li>
         <li>
-            <a class="page-scroll" href="#end">Край</a>
+            <a class="page-scroll" href="#contact">Контакти</a>
         </li>
         <li>
-            <a class="page-scroll" href="#contact">контакти</a>
+            <a class="page-scroll" href="#end">Край</a>
         </li>
     </ul>
 </nav>
@@ -74,12 +73,12 @@
     <div class="home-section-nav">
         <a class="page-scroll window" href="#images"></a>
         <a class="page-scroll window" href="#middle"></a>
-        <a class="page-scroll window" href="#end"></a>
         <a class="page-scroll window" href="#contact"></a>
+        <a class="page-scroll window" href="#end"></a>
     </div>
 </section>
 
-<section id="images" class="images-section">
+<section id="images" class="images-section" x>
 
     <h1>SoftFunny Images</h1>
 
@@ -194,7 +193,16 @@
         </article>
     </main>
     <aside class="images-aside">
-        <article class="advertisement-softuni">
+        <article class="advertisement advertisement-softuni">
+            <a href="https://softuni.bg/" target="_blank"><img src="images/softuni-suite.jpg" alt="SoftUni"></a>
+            <a href="https://softuni.bg/apply" target="_blank" class="button">Кандидатсваи!</a>
+            <a href="https://softuni.bg/curriculum" target="_blank" class="button">Учебен план</a>
+            <a href="https://softuni.bg/about" target="_blank" class="button">За софтУни</a>
+        </article>
+        <article class="advertisement advertisement-images">
+            <a href="http://funny-programming.tumblr.com/"><p>Oще смешни картинки</p></a>
+        </article>
+        <article class="advertisement advertisement-softuni">
             <a href="https://softuni.bg/" target="_blank"><img src="images/softuni-suite.jpg" alt="SoftUni"></a>
             <a href="https://softuni.bg/apply" target="_blank" class="button">Кандидатсваи!</a>
             <a href="https://softuni.bg/curriculum" target="_blank" class="button">Учебен план</a>
@@ -205,15 +213,36 @@
 </section>
 
 <section id="middle" class="middle-section">
-    <h1>Среда</h1>
-</section>
-
-<section id="end" class="end-section">
-    <h1>край</h1>
+    <iframe src="//giphy.com/embed/yYSSBtDgbbRzq" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/frustrated-annoyed-programming-yYSSBtDgbbRzq"></a></p>
 </section>
 
 <section id="contact" class="contact-section">
-    <h1>контакти</h1>
+    <h1>Контакти</h1>
+</section>
+
+<section id="end" class="end-section">
+    <footer>
+        <a class="page-scroll" href="#home"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        <div class="footer-up">
+            <ul class="footer-navigation">
+                <li><a class="page-scroll" href="#home">Начало</a></li>
+                <li><a class="page-scroll" href="#images">Картинки</a></li>
+                <li><a class="page-scroll" href="#middle">Среда</a></li>
+                <li><a class="page-scroll" href="#contact">Контакти</a></li>
+            </ul>
+            <p class="created-by">SoftFunny: individual course project</p>
+            <ul class="social-links">
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-down">
+            <p class="created-by">Created by Alexander Petrov</p>
+            <p>for individual project from SoftUni &lt;WebBasic/&gt;</p>
+        </div>
+
+    </footer>
 </section>
 
 </body>
