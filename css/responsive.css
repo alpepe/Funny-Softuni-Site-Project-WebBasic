@@ -1,3 +1,43 @@
+@media only screen and (min-width: 1500px) {
+    .home-section .window {
+        width: 300px;
+        height: 400px;
+        border-radius: 3em;
+    }
+
+    .window-images {
+        background-size: 300px 438px;
+    }
+
+    .home-section .window-images:hover {
+        background-size: 300px 438px;
+    }
+
+    .window-middle {
+        background-size: 300px 438px;
+    }
+
+    .home-section .window-middle:hover {
+        background-size: 300px 438px;
+    }
+
+    .window-contact {
+        background-size: 300px 438px;
+    }
+
+    .home-section .window-contact:hover {
+        background-size: 300px 438px;
+    }
+
+    .window-end {
+        background-size: 300px 438px;
+    }
+
+    .home-section .window-end:hover {
+        background-size: 300px 438px;
+    }
+}
+
 @media only screen and (max-width: 1023px) {
     .images-main {
         -moz-column-count: 2;
@@ -12,7 +52,7 @@
 
     }
 
-    .fa-chevron-up{
+    .fa-chevron-up {
         display: none;
     }
 
@@ -23,20 +63,82 @@
     }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1000px) {
     .images-main {
         flex-basis: 100%;
         border-right: none;
     }
 
+    .advertisement {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
 
+    .advertisement-images p {
+        font-size: 2em;
+    }
+
+    .home-section {
+        display: none !important;
+    }
+
+    .navbar-nav li:first-child {
+        display: none;
+    }
+
+    .contact-main {
+        flex-basis: 100%;
+        border-right: none;
+    }
 
 }
 
 @media only screen and (max-width: 640px) {
+    .images-section h1 {
+        margin: 0 auto;
+        margin-top: 1em;
+        text-align: center;
+
+    }
+
     .images-main {
         -moz-column-count: 1;
         -webkit-column-count: 1;
         column-count: 1;
+        padding: 0;
+    }
+
+    .advertisement {
+        display: block;
+        width: 90%;
+    }
+
+    .middle-section {
+        padding: 2em 0;
+    }
+
+    iframe {
+        width: 340px
+    }
+
+    .contact-main {
+        padding: 0;
+    }
+
+    .person {
+        width: 100%;
+        margin: 0;
+        padding: 0.5em 0.5em 1em 0.5em;
+        border-bottom-right-radius: 100px;
+        text-align: center;
+    }
+
+    .person img {
+        margin: 1.5em 0;
+    }
+
+    .person .social-links {
+        background: none;
     }
 }

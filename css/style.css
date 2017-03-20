@@ -7,7 +7,6 @@ body {
     font-family: "pt sans caption", sans-serif;
     font-size: 15px;
     width: 100%;
-    height: 100%;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -38,55 +37,118 @@ html {
     font-size: 1.5em;
     text-transform: capitalize;
     font-weight: 900;
-    -moz-transition: color .3s ease-in-out;
-    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .navbar li a:hover {
     color: #ffa000;
-    -moz-transition: color .3s ease-in-out;
-    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 /** ========= HOME SECTION style =========*/
 .home-section {
     height: 100%;
-    padding-top: 150px;
     text-align: center;
     background: #eee;
     padding-top: 65px;
-    /* background: url("../images/IMG_405685.jpg") no-repeat fixed;*/
+    /*background: url("../images/background-wallpapers-32.jpg") fixed;*/
     position: relative;
     display: flex;
-}
 
+}
 .home-section .home-section-nav {
-    flex-basis: 80%;
+    flex-basis: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 10em auto;
+    margin: 1em auto 20em auto;
+}
+.home-section h1 {
+    flex-basis: 100%;
+    color: #ffa000;
+    padding: 0.1em;
+    font-size: 2em;
+    font-family: Comfortaa, sans-serif;
+    text-align: left;
+    margin: 0em 0 4em 0em;
+}
+.home-section .home-section-nav a {
+    text-decoration: none;
+    position: relative;
+}
+
+.home-section .home-section-nav a span {
+    position: absolute;
+    color: rgba(255, 165, 0, 0);
+    left: 15px;
+    font-weight: 900;
+    top: 10px;
+    font-size: 2em;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
 }
 
 .home-section .window {
     width: 200px;
     height: 300px;
     border-radius: 3em;
-    background: -webkit-linear-gradient(top, rgba(248, 80, 50, 1) 20%, rgba(248, 80, 50, 0.8) 30%, rgba(241, 111, 92, 0.0) 95%), url(../images/i-need-breace.jpg);
 
-    -moz-transition: transform .5s ease-in-out;
-    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.window-images {
+    background: url("../images/home-images.jpg");
+}
+
+.window-middle {
+    background: url("../images/home-middle.jpg");
+}
+
+.window-contact {
+    background: url("../images/home-contact.jpg");
+}
+
+.window-end {
+    background: url("../images/home-footer.jpg");
 }
 
 .home-section .window:hover {
+    transition: all 500ms ease;
     transform: scale(1.10, 1.10);
     -moz-transform: scale(1.25, 1.25);
     -ms-transform: scale(1.25, 1.25);
     -webkit-transform: scale(1.10, 1.10);
     -o-transform: scale(1.25, 1.25);
-    -moz-transition: transform .5s ease-in-out;
-    -webkit-transition: transform .5s ease-in-out;
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
     cursor: pointer;
+}
+.home-section .window:hover span{
+    color: rgba(255, 165, 0, 1);
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+}
+.home-section .window-images:hover {
+    background: linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)), url("../images/home-images.jpg");
+}
+
+.home-section .window-middle:hover{
+    background:linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)),url("../images/home-middle.jpg");
+}
+.home-section .window-contact:hover{
+    background:linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)),url("../images/home-contact.jpg");
+}
+.home-section .window-end:hover{
+    background:linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)),url("../images/home-footer.jpg");
 }
 
 /** ========= IMAGES SECTION style =========*/
@@ -110,7 +172,8 @@ html {
 
 /** === Images main style ===*/
 .images-main {
-    flex-basis: 70%;
+    flex-basis: 60%;
+    flex-grow: 1;
     margin: 2em 2.9em 5em 2em;
     padding: 0;
     -moz-column-count: 3;
@@ -268,7 +331,7 @@ html {
 /** === Images aside style ===*/
 
 .images-aside {
-    flex-basis: 15%;
+    flex-basis: 5%;
     flex-grow: 1;
     text-align: center;
     margin-right: 10px;
@@ -278,7 +341,7 @@ html {
     margin-top: 1em;
     width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .advertisement-softuni img {
@@ -340,12 +403,12 @@ html {
     padding: 150px 0 0 0;
     text-align: center;
     background: #eee;
-    padding: 65px;
     /*background: url("../images/IMG_2.jpg") no-repeat fixed;*/
     text-align: left;
     text-align: center;
 }
-.middle-section *{
+
+.middle-section * {
     margin: 0;
     padding: 0;
 }
@@ -361,7 +424,8 @@ html {
 }
 
 .contact-main {
-    flex-basis: 70%;
+    flex-basis: 60%;
+    flex-grow: 1;
     margin: 2em 2.9em 5em 2em;
     padding: 0;
     padding-right: 3.1em;
@@ -423,7 +487,7 @@ html {
     right: 0;
     display: inline-block;
     margin: 0 auto;
-    background: linear-gradient(to left,rgba(35, 68, 101, 1), rgba(35, 68, 101, 1), rgba(255, 255, 255, 0));
+    background: linear-gradient(to left, rgba(35, 68, 101, 1), rgba(35, 68, 101, 1), rgba(255, 255, 255, 0));
     border-top-right-radius: 3em;
     width: 30%;
     text-align: right;
@@ -439,6 +503,7 @@ html {
     border-radius: 50%;
     position: relative;
 }
+
 .person .social-links li a {
     text-decoration: none;
     color: white;
@@ -465,16 +530,15 @@ html {
     left: 13px;
 }
 
-
 .person .social-links li a:hover {
-    color:  rgba(255, 160, 0, 1);
-    -moz-transition:  color.3s ease-in-out;
+    color: rgba(255, 160, 0, 1);
+    -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out;
 }
 
 /** === Images aside style ===*/
 .contact-aside {
-    flex-basis: 15%;
+    flex-basis: 5%;
     flex-grow: 1;
     text-align: center;
     margin-right: 10px;
