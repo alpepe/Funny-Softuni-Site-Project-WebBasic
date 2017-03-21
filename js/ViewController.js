@@ -1,7 +1,11 @@
 function startApp() {
     "use strict";
-    //hideMain();
-    showMenu();
+    var mq = window.matchMedia('all and (max-width: 700px)');
+    if(mq.matches) {
+        showMenu()
+    } else {
+        hideMain()
+    }
 
     $("#programmer").click(showMenu);
     $('#programmer').hover(showFirstScreenImageProgrammer, hideFirstScreenImageProgrammer)
@@ -40,9 +44,6 @@ function startApp() {
         $('#firstScreenImage').css({'background-size': 'contain'});
     }
 
-    function aaa() {
-        alert("safasfas")
-    }
 
     function showMenu() {
         $('#home').show()
@@ -50,6 +51,7 @@ function startApp() {
         $('#end').show()
         $('#contact').show()
         $('#navbar').show()
+        $('#images').show()
         $('#firstScreen').hide()
     }
 
@@ -59,7 +61,8 @@ function startApp() {
         $('#end').hide()
         $('#contact').hide()
         $('#navbar').hide()
+        $('#firstScreen').show()
+        $('#images').hide()
     }
-
 
 }
