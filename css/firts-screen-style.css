@@ -16,6 +16,9 @@
     font-size: 15px;
     text-align: center;
     padding: 1em 0 5em 0;
+    border-bottom-right-radius: 15em;
+    border-bottom-left-radius: 15em;
+    border-bottom: 15px solid #ffa000;
 }
 
 
