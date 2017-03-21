@@ -95,6 +95,32 @@
 }
 
 @media only screen and (max-width: 640px) {
+    .navbar > ul > li:first-child {
+        margin: 0;
+    }
+
+
+    .navbar-nav li {
+        display: none;
+        text-align: center;
+        margin: 0;
+        padding: 0.5em 0;
+    }
+
+    .hidden-menu > a {
+        display: block;
+
+    }
+
+    .hidden-menu:hover > .navbar-nav > li {
+        display: block;
+
+    }
+
+    .hidden-menu:hover > a {
+        display: none;
+    }
+
     .images-section h1 {
         margin: 0 auto;
         margin-top: 1em;
@@ -140,5 +166,11 @@
 
     .person .social-links {
         background: none;
+    }
+
+    .footer-navigation li {
+        display: block;
+        border-right: none;
+        padding: 0;
     }
 }

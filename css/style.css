@@ -17,13 +17,16 @@ html {
 }
 
 .navbar {
-    width: 100%;
+    width: calc(100% - 40px);
     max-width: 1600px;
     background: #234465;
-    padding: 10px;
+    padding: 10px 40px 10px 0;
     text-align: right;
     position: fixed;
     z-index: 100;
+}
+.navbar-nav{
+    display: inline-block;
 }
 
 .navbar li {
@@ -46,14 +49,20 @@ html {
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
-
+.hidden-menu > a{
+    color: #8e9fb0;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 900;
+    display: none;
+}
 /** ========= HOME SECTION style =========*/
 .home-section {
     height: 100%;
     text-align: center;
     background: #eee;
     padding-top: 65px;
-    /*background: url("../images/background-wallpapers-32.jpg") fixed;*/
+    background: white;
     position: relative;
     display: flex;
 
@@ -154,7 +163,7 @@ html {
 /** ========= IMAGES SECTION style =========*/
 .images-section {
     text-align: center;
-    /* background: url("../images/IMG_405685.jpg") no-repeat fixed;*/
+    background: #ededed;
     display: flex;
     flex-wrap: wrap;
     padding-top: 65px;
@@ -400,10 +409,10 @@ html {
 /** ========= MIDDLE SECTION style =========*/
 .middle-section {
     height: 100%;
-    padding: 150px 0 0 0;
+    padding: 10em 0 10em 0;
     text-align: center;
     background: #eee;
-    /*background: url("../images/IMG_2.jpg") no-repeat fixed;*/
+    background: #ededed;
     text-align: left;
     text-align: center;
 }
@@ -420,7 +429,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     background: #fff;
-    /*background: url("../images/IMG_2.jpg") no-repeat fixed;*/
+    background: white;
 }
 
 .contact-main {
@@ -552,6 +561,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0;
+    background: white;
 }
 
 footer {
