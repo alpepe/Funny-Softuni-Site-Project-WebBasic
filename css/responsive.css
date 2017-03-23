@@ -2,39 +2,26 @@
     .home-section .window {
         width: 300px;
         height: 400px;
-        border-radius: 3em;
     }
-
-    .window-images {
-        background-size: 300px 438px;
+    .window p{
+        width: 300px;
+        height: 250px;
     }
-
-    .home-section .window-images:hover {
-        background-size: 300px 438px;
+    .window img{
+        width: 300px;
+        height: 400px;
     }
-
-    .window-middle {
-        background-size: 300px 438px;
+    .window-images p{
+        top:-420px;
     }
-
-    .home-section .window-middle:hover {
-        background-size: 300px 438px;
+    .window-middle p{
+        left: -310px;
     }
-
-    .window-contact {
-        background-size: 300px 438px;
+    .window-contact:hover img{
+        top:410px;
     }
-
-    .home-section .window-contact:hover {
-        background-size: 300px 438px;
-    }
-
-    .window-end {
-        background-size: 300px 438px;
-    }
-
-    .home-section .window-end:hover {
-        background-size: 300px 438px;
+    .window-end p{
+        left: 310px;
     }
 }
 

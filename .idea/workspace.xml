@@ -24,11 +24,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="377">
+              <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#section#3;n#body#0;n#!!top" expanded="false" />
@@ -43,21 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firts-screen-style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/firts-screen-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1543">
-              <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,28 +56,28 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+            <state relative-caret-position="391">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrolling-nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/scrolling-nav.js">
+      <file leaf-file-name="kitchen-design.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../New folder/08. Transitions-and-Animations-Resources/P02_Kitchen_Design-Transitions/kitchen-design.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ViewController.js">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../New folder/08. Transitions-and-Animations-Resources/P02_Kitchen_Design-Transitions/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="663">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -119,11 +109,11 @@
         <option value="$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/css/responsive.css" />
         <option value="$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/index.html" />
         <option value="$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/css/style.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/js/ViewController.js" />
         <option value="$PROJECT_DIR$/css/firts-screen-style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -164,8 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,27 +302,29 @@
       <workItem from="1490031678512" duration="14856000" />
       <workItem from="1490079207555" duration="5302000" />
       <workItem from="1490087146991" duration="1058000" />
-      <workItem from="1490118963802" duration="2576000" />
+      <workItem from="1490118963802" duration="3175000" />
+      <workItem from="1490194589472" duration="5316000" />
+      <workItem from="1490229187494" duration="7363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105302000" />
+    <option name="totallyTimeSpent" value="118580000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22254759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -351,8 +343,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/css/responsive.css" />
-    <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/css/firts-screen-style.css" />
     <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/js/MasonryJQuery.js" />
     <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/js/ViewController.js" />
     <entry file="file://$PROJECT_DIR$/../../Funny-Softuni-Site-Project-WebBasic-master/index.html" />
@@ -426,42 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1543">
-          <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#article#1;n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#article#2;n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#article#3;n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#section#3;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#body#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scrolling-nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -482,6 +436,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../New folder/08. Transitions-and-Animations-Resources/P02_Kitchen_Design-Transitions/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../New folder/08. Transitions-and-Animations-Resources/P02_Kitchen_Design-Transitions/kitchen-design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#article#1;n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#article#2;n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#article#3;n#main#0;n#section#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#section#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>

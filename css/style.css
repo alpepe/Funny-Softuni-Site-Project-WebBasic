@@ -25,7 +25,8 @@ html {
     position: fixed;
     z-index: 100;
 }
-.navbar-nav{
+
+.navbar-nav {
     display: inline-block;
 }
 
@@ -49,14 +50,17 @@ html {
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
-.hidden-menu > a{
+
+.hidden-menu > a {
     color: #8e9fb0;
     font-size: 1.5em;
     text-transform: capitalize;
     font-weight: 900;
     display: none;
 }
+
 /** ========= HOME SECTION style =========*/
+
 .home-section {
     height: 100%;
     text-align: center;
@@ -67,6 +71,7 @@ html {
     display: flex;
 
 }
+
 .home-section .home-section-nav {
     flex-basis: 90%;
     display: flex;
@@ -74,6 +79,7 @@ html {
     justify-content: space-around;
     margin: 1em auto 20em auto;
 }
+
 .home-section h1 {
     flex-basis: 100%;
     color: #ffa000;
@@ -83,49 +89,22 @@ html {
     text-align: left;
     margin: 0em 0 4em 0em;
 }
+
 .home-section .home-section-nav a {
     text-decoration: none;
     position: relative;
 }
 
-.home-section .home-section-nav a span {
-    position: absolute;
-    color: rgba(255, 165, 0, 0);
-    left: 15px;
-    font-weight: 900;
-    top: 10px;
-    font-size: 2em;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-}
-
-.home-section .window {
+.window {
+    position: relative;
+    overflow: hidden;
     width: 200px;
     height: 300px;
     border-radius: 3em;
+    transition: all 1000ms ease;
 
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    box-shadow: 5px 5px 20px #cdcdcd;
 }
-
-.window-images {
-    background: url("../images/home-images.jpg");
-}
-
-.window-middle {
-    background: url("../images/home-middle.jpg");
-}
-
-.window-contact {
-    background: url("../images/home-contact.jpg");
-}
-
-.window-end {
-    background: url("../images/home-footer.jpg");
-}
-
 .home-section .window:hover {
     transition: all 500ms ease;
     transform: scale(1.10, 1.10);
@@ -133,31 +112,74 @@ html {
     -ms-transform: scale(1.25, 1.25);
     -webkit-transform: scale(1.10, 1.10);
     -o-transform: scale(1.25, 1.25);
-    -webkit-transition: all 1000ms ease;
-    -moz-transition: all 1000ms ease;
-    -ms-transition: all 1000ms ease;
-    -o-transition: all 1000ms ease;
     cursor: pointer;
 }
-.home-section .window:hover span{
-    color: rgba(255, 165, 0, 1);
-    -webkit-transition: all 1000ms ease;
-    -moz-transition: all 1000ms ease;
-    -ms-transition: all 1000ms ease;
-    -o-transition: all 1000ms ease;
-}
-.home-section .window-images:hover {
-    background: linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)), url("../images/home-images.jpg");
+
+
+.window p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: #ffa000;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    padding: 150px 0 0 0;
+    background-color: rgba(35, 68, 101, 1);
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-.home-section .window-middle:hover{
-    background:linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)),url("../images/home-middle.jpg");
+.window-images p {
+    margin-right: 3em;
+
+    top: -300px;
+    opacity: 0.9;
+    transition: all 1s ease-out;
 }
-.home-section .window-contact:hover{
-    background:linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)),url("../images/home-contact.jpg");
+
+.window-images:hover p {
+    left: 0px;
+    top: 0px;
 }
-.home-section .window-end:hover{
-    background:linear-gradient(rgba(28, 45, 71, 0.85), rgba(28, 45, 71, 0.85)),url("../images/home-footer.jpg");
+
+.window-middle p {
+    margin-right: 3em;
+    left: -200px;
+    opacity: 0.9;
+    transition: left 1s ease-out;
+}
+
+.window-middle:hover p {
+    left: 0px;
+}
+
+.window-contact img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+    transition: top 1s ease-out;
+}
+.window-contact p{
+    z-index: 5;
+}
+.window-contact:hover img{
+    top:300px;
+}
+
+.window-end p {
+    background: #ffa000;
+    color: #234465;
+    margin-right: 3em;
+    left: 200px;
+    opacity: 0.9;
+    transition: left 1s ease-out;
+}
+
+.window-end:hover p {
+    left: 0px;
 }
 
 /** ========= IMAGES SECTION style =========*/
